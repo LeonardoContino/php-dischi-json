@@ -1,0 +1,51 @@
+.header-page{
+    height: 60px;
+    padding: 10px;
+    background-color: #06131F;
+}
+.header-page img{
+    height: 100%;
+
+}
+
+.main-page{
+    background-color: #1D2D3D;
+    min-height: calc(100vh - 60px);
+}
+
+.card-main{
+    min-height: 600px;
+    width: 800px;
+
+}
+.card-main > *{
+    height: 300px;
+    width: 250px;
+    border: 1px solid white;
+    background-color: #112031;
+    color: white;
+    border-radius: 3%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+
+}
+.col > h4 {
+    font-size: 20px;
+    font-style: bold;
+    
+}
+.col > h6{
+    font-size: 10px;
+}
+.col > h5{
+    font-size: 15px;
+}
+.img-post{
+    padding: 20px;
+    height: 200px;
+    width: 200px;
+    
+}
