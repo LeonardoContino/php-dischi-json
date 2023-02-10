@@ -20,8 +20,12 @@
 </head>
 <body id="app">
     <header class="header-page">
-        <div class="container h-100">
+        <div class="container d-flex justify-content-around align-items-center h-100">
         <img class="img-fluid" src="img/logo.webp" alt="">
+            <select v-if="genres.length" v-model="selectedGenre" @change="filterDiscs">
+                <option value="">tutti i generi</option>
+                <option v-for="genre in genres" :key="genre">{{genre}}</option>
+            </select>
         </div>
     </header>
     <main class="main-page">
